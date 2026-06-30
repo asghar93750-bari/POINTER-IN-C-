@@ -1,0 +1,13 @@
+//Find the sum of two numbers using pointers.
+
+#include<iostream>
+using namespace std;
+int main() {
+	int num1{}, num2{};
+	cout << "enter two numbers: ";
+	cin >> num1 >> num2;
+	int* p = &num1;
+	int* p2 = &num2;
+	cout << *p + *p2 << endl;
+	return 0;
+};
