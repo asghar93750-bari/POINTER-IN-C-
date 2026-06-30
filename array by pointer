@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int arr[4] = { 10,20,30,40 };
+	int* p = arr;
+	//cout << *p << endl;
+	cout << *(p + 1) << endl;
+	cout << *(p + 2) << endl;
+	cout << *(p + 3) << endl;
+	 printib the array address 
+    for (int x= 0;x < 5;x++) {
+        cout << arr + x << endl;
+    }
+    //print the value of the element in array.
+    for (int x = 0;x < 4;x++) {
+        cout << arr[x] << endl;
+    }
+
+	return 0;
+
+
+}
