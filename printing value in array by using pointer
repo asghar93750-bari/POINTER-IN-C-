@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int arr[5] = { 1,2,3,4,5 };
+    int* Ptr = arr;
+    cout << &(ptr + 0) << endl;
+    //printib the array address 
+    for (int x= 0;x <= 5;x++) {
+        cout << arr + x << endl;
+    }
+    //print the value of the element in array.
+    for (int x = 0;x < 5;x++) {
+        cout << *(arr + x) << endl;
+    }
+    cout << *(p + 0) << endl;
+    return 0;
+}
